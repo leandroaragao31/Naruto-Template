@@ -61,18 +61,24 @@ export const BoxList = styled.ul`
     list-style:none;
     margin-left:1.5vw;
     height:25vh;
+  
 
     li{
         margin-top:2vh;
         font-family:'Malgun Gothic', serif;
         font-size:1.3vw;
-        
-
+        &:hover{
+            color:red;
+            font-weight:bold;
+        }
+      
     }
 
     a{
         text-decoration:none;
         color:#1a1a1a;
+   
+
     }
 
 `
