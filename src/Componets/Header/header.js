@@ -35,10 +35,10 @@ export  function Header() {
             </figure>
             <S.Menu>
                 <ul>
-                    <a href="">
+                    <a id="Home" href="#Home">
                         <li>{menuHome}</li>
                     </a>
-                    <a href="">
+                    <a href="#aboutus">
                         <li>{menuAbout}</li>
                     </a>
                     <a href="">
@@ -47,7 +47,7 @@ export  function Header() {
                     <a href="">
                         <li>{menuEpisodes}</li>
                     </a>
-                    <a href="">
+                    <a href="#contactus">
                         <li>{menuContact}</li>
                     </a>
                     <a href="">

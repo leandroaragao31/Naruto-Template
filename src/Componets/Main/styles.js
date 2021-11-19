@@ -17,8 +17,10 @@ export const Cards = styled.img`
     cursor:pointer;
     position:relative;
     transition: 1s ease-in-out;
+    margin-left:4vw;
     top:20px;
     &:hover{
+        transform: scale(105%);
         -webkit-box-shadow: 0px 10px 13px -7px #FFD700, 5px 5px 15px 5px rgba(0,0,0,0); 
         box-shadow: 0px 10px 13px -7px #FFD700, 5px 5px 15px 5px rgba(0,0,0,0);
     }
@@ -34,7 +36,7 @@ export const BtnDescribe = styled.button`
     border-width:1px;
     color:#333333;
     margin-top:6vh;
-    margin-left:2vw;
+    margin-left:6vw;
     border-color:#ffaa22;
     font-weight:bold;
     border-top-left-radius:6px;

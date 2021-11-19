@@ -48,7 +48,7 @@ export function Main() {
       <div>
         <SlideMain />
       </div>
-      <S.ContainerSec back={imgMainSection.url}>
+      <S.ContainerSec id="aboutus" back={imgMainSection.url}>
         <S.BoxTitle>
           <h2>{titleMain}</h2>
           <p>{paragraphMain}</p>

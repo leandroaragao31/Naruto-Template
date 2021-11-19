@@ -92,7 +92,7 @@ export function SlideMain() {
                     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
                 </Helmet>
 
-                    <Slider style={{  width: '96%', height:'50vh' }} {...settings}>
+                    <Slider style={{  width: '96%', height:'50vh', }} {...settings}>
                         <figure>
                             <S.Cards  src={mainCard.url} />
                             <S.BtnDescribe>Description</S.BtnDescribe>
