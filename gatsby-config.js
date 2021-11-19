@@ -37,8 +37,26 @@ module.exports = {
           {
             family: 'Roboto Mono',
             weights: ['100..400']
+          },
+          {
+            family: 'Cabin',
+            weights: ['400', '600', '800']
+          },
+          {
+            family: 'Playfair Display',
+            weights: ['400i', '400']
           }
         ]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `limelight`,
+          `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
+        ],
+        display: 'swap'
       }
     }
   ],
