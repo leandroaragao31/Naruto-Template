@@ -12,7 +12,7 @@ export default function Index() {
         <Helmet>
           <title>Naruto</title>
         </Helmet>
-        <Header />
+        <Header  />
         <Main />
         <Footer />
     </div>

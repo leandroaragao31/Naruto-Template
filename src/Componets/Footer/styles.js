@@ -13,7 +13,7 @@ export const BoxInformations = styled.div`
     width:80%;
     align-items:center;
     justify-content:space-evenly;
-    margin-left:15vw;
+    margin-left:8vw;
     
     h2{
         font-family: 'limelight', source sans pro;

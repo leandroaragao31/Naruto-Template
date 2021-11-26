@@ -42,12 +42,14 @@ export const BtnDescribe = styled.button`
     border-top-left-radius:6px;
     border-top-right-radius:6px;
     border-bottom-left-radius:6px;
+    color:#c92200;
      border-bottom-right-radius:6px;
     box-shadow: 0px 1px 0px 0px #fff6af;
     text-shadow: 0px 1px 0px #ffee66;
-     background:linear-gradient(#ffec64, #ffab23);
+    background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
   &:hover{
-    background: linear-gradient(#ffab23, #ffec64);
+    background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+	background-color:#f2ab1e;
   }
    
 `

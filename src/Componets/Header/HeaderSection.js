@@ -26,7 +26,7 @@ export function HeaderSection() {
     return (
         <>
             <S.ContainerImg back={backgroundImg.url}  >
-                <S.BoxText>
+                <S.BoxText >
                     <h1>{title}</h1>
                     <h2>{subtitle}</h2>
                     <p>{paragraph}</p>

@@ -46,7 +46,7 @@ export function Footer() {
 
     return (
         <>
-            <S.Container>
+            <S.Container >
                 <S.BoxInformations>
                     <figure>
                         <S.Logo className="logo" src={logoFooter.url} alt="sharingan" />

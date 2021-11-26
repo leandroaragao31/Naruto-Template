@@ -13,7 +13,7 @@ export const Logo = styled.img`
     width:100px;
     height:50px;
 
-` 
+`
 
 export const Menu = styled.nav`
     width:70%;
@@ -89,21 +89,30 @@ export const BoxText = styled.div`
     
 
     button{
-        background-image: -webkit-linear-gradient(90deg, #8a8f08 5%, #eff705 100%);
-        background-image:    -moz-linear-gradient(90deg, #8a8f08 5%, #eff705 100%);
-        background-image:     -ms-linear-gradient(90deg, #8a8f08 5%, #eff705 100%);
-        border:none;
+        box-shadow: 0px 1px 0px 0px #fff6af;
+	    background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	    background-color:#ffec64;
+	    border-radius:6px;
+	    border:1px solid #ffaa22;
+	    color:#333333;
+	    font-weight:bold;
+	    padding:6px 24px;
+	    text-decoration:none;
+	    text-shadow:0px 1px 0px #ffee66;   
         transition: 2s ease-in-out;
         width:15vw;
         height:11vh;
-        border-radius:10px;
         cursor: pointer;
         font-size:1.4vw;
         font-family: 'Cabin', sans-serif;
         &:hover{
-            background-image: -webkit-linear-gradient(90deg, #8B7500 5%, #FEAF02 100%);
-            background-image:    -moz-linear-gradient(90deg, #8B7500 5%, #FEAF02 100%);
-            background-image:     -ms-linear-gradient(90deg, #8B7500 5%, #FEAF02 100%);
+            background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	        background-color:#ffab23;
+        }
+
+        &:active{
+            position:relative;
+	        top:1px;
         }
 
     }
